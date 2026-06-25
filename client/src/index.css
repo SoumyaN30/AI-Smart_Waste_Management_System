@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fc;
+  color: #374151;
+}
+
+/* buttons */
+button {
+  background-color: #a5b4fc;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #818cf8;
+}
+
+/* inputs */
+input,
+select,
+textarea {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* card style */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* priority badges */
+.high-priority {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.medium-priority {
+  background-color: #f59e0b;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+  display: inline-block;
+}
+
+/* emergency message */
+.emergency-text {
+  color: #ef4444;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+/* priority box */
+.priority-box {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+
+/* status badges */
+.status-pending {
+  background-color: #f59e0b;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status-accepted {
+  background-color: #3b82f6;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status-completed {
+  background-color: #22c55e;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* page spacing */
+.container {
+  padding: 20px;
+}
+
+/* responsive fix */
+@media (max-width: 768px) {
+  input,
+  select,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
